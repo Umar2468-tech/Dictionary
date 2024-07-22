@@ -1,0 +1,90 @@
+html,
+body {
+  background-color: rgb(44, 44, 198);
+}
+
+.container {
+  background-color: white;
+  height: 350px;
+  width: 560px;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container input {
+  padding: 12px 80px;
+  margin: 20px 60px;
+  border: none;
+  border-bottom: 1px solid blue;
+  outline: none;
+}
+.container button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: rgb(142, 142, 243);
+  color: white;
+  font-weight: normal;
+  /* border-color: none; */
+}
+
+.container input::placeholder {
+  font-size: 20px;
+  font-family: "montserrat";
+}
+
+.result {
+  position: relative;
+}
+.word {
+  display: flex;
+  justify-content: space-between;
+}
+
+.word h3 {
+  font-family: "montserrat";
+  font-size: 20px;
+  margin: 0px 40px;
+}
+
+.word button {
+  font-size: 18px;
+  border: none;
+  background-color: white;
+  color: black;
+  margin: 0px 20px;
+}
+
+.result .details {
+  display: flex;
+  margin: 0px 40px;
+  font-family: "montserrat";
+  font-size: 12px;
+}
+
+.result .word-meanings {
+  padding: 0px 40px;
+  font-size: 15px;
+  font-family: "montserrat";
+}
+
+.result .word-example {
+  padding: 0px 20px;
+  font-size: 17px;
+  margin: 10px 20px;
+  font-family: "montserrat";
+}
+
+.def {
+  font-family: "montserrat";
+  font-size: 18px;
+  margin: 2px 40px;
+}
+
+.meaning {
+  font-family: "montserrat";
+  font-size: 18px;
+  margin: 2px 40px;
+}
